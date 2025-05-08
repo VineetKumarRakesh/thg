@@ -1,104 +1,86 @@
-# Save the README content to a downloadable Markdown file
+# 🧠 Advancing Talking Head Generation: The Great Lip Sync Conspiracy
 
-readme_content = """
-# 🧠 Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions
-
-This repository presents an exhaustive survey on **Talking Head Generation (THG)**, authored by **Vineet Kumar Rakesh** as part of a research project conducted at Variable Energy Cyclotron Centre (VECC), Department of Atomic Energy, Government of India. The paper categorizes Talking Head Generation techniques, reviews key methodologies, datasets, loss functions, evaluation metrics, and provides empirical comparisons of select methods.
+> _"Ever wished your photo could argue back in meetings? We’re not there yet... but this is dangerously close."_  
+> — The Authors (probably)
 
 ---
 
-## 📘 Paper Information
+## 📘 About This Repository
 
-- **Title**: Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions  
-- **Author**: Vineet Kumar Rakesh  
-- **Affiliation**: Variable Energy Cyclotron Centre (VECC), Kolkata (WB), India
-                    &
-                  Homi Bhabha National Institute, Mumbai (MH), India 
-- **Email**: [vineet@vecc.gov.in](mailto:vineet@vecc.gov.in)
+Welcome to the **most expressive survey** on Talking Head Generation (THG) you'll ever read — or watch (spoiler: we include video results).
 
----
+This repo accompanies the paper **“Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions”**, authored by [Vineet Kumar Rakesh](mailto:vineet@vecc.gov.in), [Soumya Mazumdar](mailto:reachme@soumyamazumdar.com), [Research Pratim Maity](mailto:researchpratimmaity2004@gmail.com), [Sarbajit Pal](mailto:sarbajit@vecc.gov.in), [Amitabha Das](mailto:amitabhad.snsa@jadavpuruniversity.in), [Tapas Samanta](mailto:tsamanta@vecc.gov.in). 
 
-## 📌 Abstract
+This work was supported by the Variable Energy Cyclotron Centre (VECC), Department of Atomic Energy, Government of India and Homi Bhabha National Institute, Department of Atomic Energy, Government of India, which provided comprehensive facilities and technical support for the research and the Department of Atomic Energy, Government of India, for sponsoring the open‑access publication of this work.
 
-Talking Head Generation aims to synthesize realistic human head videos driven by speech, text, or other videos. This paper surveys key developments in the domain, evaluates them through implementation-based benchmarking, and outlines major challenges in realism, identity retention, and synchronization.
+We explore 500+ research works from 2017 to 2025, dissect architectures like a neural coroner, evaluate datasets until they confess their secrets, and even benchmark some THG models for fun (and science).
 
 ---
 
-## 🧩 Contents
+## 🧪 What’s Inside
 
-- ✅ Survey of Talking Head Generation Methodologies
-- 🗂 Categorization of Performance based Approaches
-- 🧪 Evaluation on Public Datasets
-- 📊 Metric-Based Comparison
-- 💡 Discussion of Open Challenges
-
----
-
-## 📚 Categories of Methods
-
-1. **Audio-Driven Generation**
-2. **Video-Driven & Landmark-Based Models**
-3. **One-Shot & Few-Shot Approaches**
-4. **GAN & Transformer-Based Models**
+- 📚 **Survey** of over 500 papers
+- 🗂️ **Categorization**: Audio, Video, Image, Text, 2D, 3D, GAN, NeRF, Transformers, etc.
+- 📦 **Datasets**: VoxCeleb, GRID, LRS3, CelebV, and more
+- 🧮 **Evaluation Metrics**: SSIM, PSNR, LMD, CPBD, WER, LPIPS, CSIM
+- 🎯 **Loss Functions**: From pixel-wise pain to perceptual power
+- 🤖 **Code**: Evaluation & visual quality assessment scripts
+- 🎬 **Demo Videos**: See Wav2Lip and SadTalker in action (scroll 👇)
+- ⚠️ **Warnings**: DeepFakes are not your friends
 
 ---
 
-## 📦 Datasets Reviewed
+## 🎞️ Sample Outputs
 
-- VoxCeleb1, VoxCeleb2
-- GRID Corpus
-- TCD-TIMIT
-- LRW (Lip Reading in the Wild)
-
----
-
-## 📏 Evaluation Metrics
-
-- SSIM (Structural Similarity Index)
-- PSNR (Peak Signal-to-Noise Ratio)
-- LMD (Landmark Distance)
-- CPBD (Cumulative Probability Blur Detection)
+| Model | Output |
+|-------|--------|
+| **Wav2Lip** | 🎥 [Watch](./GT_Wav2Lip.mp4) |
+| **Output (Wav2Lip)** | 🎥 [Watch](./Wav2Lip.mp4) |
+| **SadTalker** | 🎥 [Watch](./GT_SadTalker.mp4) |
+| **Output (SadTalker)** | 🎥 [Watch](./SadTalker.mp4) |
 
 ---
 
-## 📈 Benchmarks
+## ⚙️ Code
 
-| Model | Dataset | SSIM ↑ | PSNR ↑ | LMD ↓ |
-|-------|---------|--------|--------|--------|
-| Wav2Lip | VoxCeleb2 | 0.74 | 32.5 | 1.21 |
-| FOMM | VoxCeleb1 | 0.68 | 29.8 | 1.49 |
-| Face-vid2vid | GRID | 0.72 | 31.2 | 1.33 |
+Coming soon in the `eval-scripts/` directory:
 
-*↑: Higher is better | ↓: Lower is better*
+- `compute_metrics.py`: SSIM, PSNR, LMD, CPBD & many more evaluations
+- `align_faces.py`: Align input/output for fair comparison
+- `visualize_lipsync.py`: Compare generated vs ground-truth sync
 
----
-
-## 🧪 Code & Replication
-
-A separate branch will include runnable code and evaluation scripts for popular THG models.
-
-- [ ] Wav2Lip
-- [ ] FOMM
-- [ ] MakeItTalk
-- [ ] Face-vid2vid
+Stay tuned, or just `git pull --force` every hour (not recommended).
 
 ---
 
-## 🧠 Future Work
+## 📈 Benchmarks Snapshot (Sample)
 
-- Enhancing realism with emotion modeling  
-- Audio-visual coherence under varying lighting  
-- Real-time performance optimizations  
-- Ethical frameworks for deepfake governance
+| Model         | Dataset     | SSIM ↑ | PSNR ↑ | LMD ↓ |
+|---------------|-------------|--------|--------|--------|
+| Wav2Lip       | VoxCeleb2   | 0.74   | 32.5   | 1.21   |
+| FOMM          | VoxCeleb1   | 0.68   | 29.8   | 1.49   |
+| Face-vid2vid  | GRID        | 0.72   | 31.2   | 1.33   |
+
+*↑: Higher is better | ↓: Lower is better — just like your blood pressure after debugging Wav2Lip*
+
+---
+
+## 🧠 Core Contributions (TL;DR for humans with deadlines)
+
+1. **Unified taxonomy** for all talking-head paradigms.
+2. **Cross-paradigm benchmarks** using public models.
+3. **Dataset decoding**: what's worth your GPU time.
+4. **Metric mayhem**: which one really captures realism?
+5. **Loss function symphony**: the good, the bad, the not-so-differentiable.
 
 ---
 
 ## 🔖 Citation
 
 ```bibtex
-@misc{roy2024talkingheadreview,
-  title={A Review on Talking Head Generation Techniques},
-  author={Soumya Roy},
-  year={2024},
-  note={Unpublished Review, VECC Internship}
+@misc{rakesh2025talkingheadreview,
+  title={Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions},
+  author={Vineet Kumar Rakesh and Soumya Mazumdar and Research Pratim Maity and Sarbajit Pal and Amitabha Das and Tapas Samanta},
+  year={2025},
+  note={Bolbona}
 }
