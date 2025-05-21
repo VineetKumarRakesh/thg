@@ -1,4 +1,4 @@
-# 🧠 Advancing Talking Head Generation: The Great Lip Sync Conspiracy
+# 🧠 Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions
 
 > _"Ever wished your photo could argue back in meetings? We’re not there yet... but this is dangerously close."_  
 > — The Authors (probably)
