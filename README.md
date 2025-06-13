@@ -77,10 +77,10 @@ Coming soon in `eval-scripts/`:
 Wanna try it? Just:
 
 ```bash
-git clone --depth 1 --force https://github.com/YourRepoLinkHere.git
+git clone --depth 1 --force https://github.com/VineetKumarRakesh.git
 ```
 
-(Replace `YourRepoLinkHere` when you’re not lazy.)
+(Replace `VineetKumarRakesh` when you’re not lazy.)
 
 ---
 
