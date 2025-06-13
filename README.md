@@ -1,59 +1,90 @@
-# 🧠 Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions
+# 🧠 **Talking Heads, but Make It Science**  
+### *A Funny Yet Serious Survey on Deepfake’s Nerdy Cousin: Talking Head Generation*
 
-> _"Ever wished your photo could argue back in meetings? We’re not there yet... but this is dangerously close."_  
-> — The Authors (probably)
-
----
-
-## 📘 About This Repository
-
-Welcome to the **most expressive survey** on Talking Head Generation (THG) you'll ever read — or watch (spoiler: we include video results).
-
-This repo accompanies the paper **“Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions”**, authored by [Vineet Kumar Rakesh](mailto:vineet@vecc.gov.in), [Soumya Mazumdar](mailto:reachme@soumyamazumdar.com), [Research Pratim Maity](mailto:researchpratimmaity2004@gmail.com), [Sarbajit Pal](mailto:sarbajit@vecc.gov.in), [Amitabha Das](mailto:amitabhad.snsa@jadavpuruniversity.in), [Tapas Samanta](mailto:tsamanta@vecc.gov.in). 
-
-This work was supported by the Variable Energy Cyclotron Centre (VECC), Department of Atomic Energy, Government of India and Homi Bhabha National Institute, Department of Atomic Energy, Government of India, which provided comprehensive facilities and technical support for the research and the Department of Atomic Energy, Government of India, for sponsoring the open‑access publication of this work.
-
-We explore 500+ research works from 2017 to 2025, dissect architectures like a neural coroner, evaluate datasets until they confess their secrets, and even benchmark some THG models for fun (and science).
+> _“Ever wished your selfie could talk during Zoom calls? We’re not quite there... but we’ve already made it nod in agreement and blink suspiciously."_  
+> — @mazumdarsoumya
 
 ---
 
-## 🧪 What’s Inside
+## 📘 What’s Going On Here?
 
-- 📚 **Survey** of over 500 papers
-- 🗂️ **Categorization**: Audio, Video, Image, Text, 2D, 3D, GAN, NeRF, Transformers, etc.
-- 📦 **Datasets**: VoxCeleb, GRID, LRS3, CelebV, and more
-- 🧮 **Evaluation Metrics**: SSIM, PSNR, LMD, CPBD, WER, LPIPS, CSIM
-- 🎯 **Loss Functions**: From pixel-wise pain to perceptual power
-- 🤖 **Code**: Evaluation & visual quality assessment scripts
-- 🎬 **Demo Videos**: See Wav2Lip and SadTalker in action (scroll 👇)
-- ⚠️ **Warnings**: DeepFakes are not your friends
+Welcome to the wildest ride in neural rendering: **Talking Head Generation (THG)**. This repo is your **cheat code** to understanding a field that blends deep learning with deep confusion, peppered with a little madness and a lot of **metrics**.
+
+⚠️ **DISCLAIMER:**  
+The **preprint paper titled**  
+📄 **“Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions”** is **NOT going to be published**. It’s the *mother of all drafts* — split into multiple, more detailed children destined for **Scopus-indexed journals and conferences**. [DOI: 10.13140/RG.2.2.34215.05286](http://dx.doi.org/10.13140/RG.2.2.34215.05286)
 
 ---
 
-## 🎞️ Sample Outputs
+## 📚 The Paper Children (Coming Soon™️, but Real)
+
+These aren’t clones. They are deeper, sharper, peer-reviewed cousins of the main survey. Once they pass reviewer boss fights, we’ll drop the DOIs and links here:
+
+### 🔍 1. **Advancing Talking Head Generation: A Systematic Review of Methodologies and Evaluation Metrics**  
+🧪 *Journal Submission - The Visual Computer, Springer Nature*  
+> Dive into the model jungle — from GANs to NeRFs and Transformers, all neatly dissected like a biology lab frog.
+
+### 📃️ 2. **Comprehensive Dataset Analysis for Talking Head Generation**  
+📘 *Book Chapter Submission*  
+> What’s inside VoxCeleb? Why is GRID so... griddy? This one's for dataset diggers.
+
+### 📏 3. **Quantitative Assessment in Talking Head Generation: Metrics and Loss Functions**  
+📗 *Journal Submission*  
+> If you've ever said "SSIM is enough," this chapter is about to throw shade and math at you.
+
+### 🧪 4. **Experimental Validation of Modern Talking Head Generation Architectures**  
+🛠️ *Conference Paper Submission*  
+> Benchmarks, metrics, results, regrets — actual experimental results with charts and enough tables to furnish an IKEA showroom.
+
+🔬 **Links will appear here** like magic scrolls, post-acceptance. Until then... stay tuned.
+
+---
+
+## 🧪 What's in This Repo?
+
+A **research buffet** for your GPU and gray matter:
+
+- 🧠 *500+ Research Papers* distilled into human language  
+- 🧑‍🏫 *Categorization* across modalities: Audio, Video, Image, Text, 2D/3D, GAN, NeRF, Transformer-based, and more  
+- 🎞️ *Datasets Decoded*: VoxCeleb, GRID, LRS3, CelebV, and other acronyms we pretend to remember  
+- 🔬 *Evaluation Metrics Galore*: SSIM, PSNR, CPBD, LPIPS, LMD, WER, CSIM — enough for a PhD defense  
+- 💥 *Loss Functions Explained*: From Mean Squared Error to “Oh no, my perceptual loss exploded”  
+- 🧪 *Code + Sample Outputs* — because seeing is believing, and benchmarks don’t screenshot themselves
+
+---
+
+## 🎮 Sample Outputs
 
 | Model | Output |
 |-------|--------|
 | **Wav2Lip** | 🎥 [Watch](./GT_Wav2Lip.mp4) |
-| **Output (Wav2Lip)** | 🎥 [Watch](./Wav2Lip.mp4) |
+| **Wav2Lip (Generated)** | 🎥 [Watch](./Wav2Lip.mp4) |
 | **SadTalker** | 🎥 [Watch](./GT_SadTalker.mp4) |
-| **Output (SadTalker)** | 🎥 [Watch](./SadTalker.mp4) |
+| **SadTalker (Generated)** | 🎥 [Watch](./SadTalker.mp4) |
+
+Not DeepFakes. Just DeepWork.
 
 ---
 
-## ⚙️ Code
+## ⚙️ Code Zone
 
-Coming soon in the `eval-scripts/` directory:
+Coming soon in `eval-scripts/`:
 
-- `compute_metrics.py`: SSIM, PSNR, LMD, CPBD & many more evaluations
-- `align_faces.py`: Align input/output for fair comparison
-- `visualize_lipsync.py`: Compare generated vs ground-truth sync
+- `compute_metrics.py` – For SSIM, PSNR, CPBD, LMD, and that one metric your professor insists on using  
+- `align_faces.py` – Because misaligned faces are worse than misaligned deadlines  
+- `visualize_lipsync.py` – For pixel-by-pixel judgement of your model's karaoke skills
 
-Stay tuned, or just `git pull --force` every hour (not recommended).
+Wanna try it? Just:
+
+```bash
+git clone --depth 1 --force https://github.com/YourRepoLinkHere.git
+```
+
+(Replace `YourRepoLinkHere` when you’re not lazy.)
 
 ---
 
-## 📈 Benchmarks Snapshot (Sample)
+## 📊 Benchmarks Snapshot
 
 | Model         | Dataset     | SSIM ↑ | PSNR ↑ | LMD ↓ |
 |---------------|-------------|--------|--------|--------|
@@ -61,26 +92,41 @@ Stay tuned, or just `git pull --force` every hour (not recommended).
 | FOMM          | VoxCeleb1   | 0.68   | 29.8   | 1.49   |
 | Face-vid2vid  | GRID        | 0.72   | 31.2   | 1.33   |
 
-*↑: Higher is better | ↓: Lower is better — just like your blood pressure after debugging Wav2Lip*
+> *↑ Good. ↓ Also good. ∞? You messed up somewhere.*
 
 ---
 
-## 🧠 Core Contributions (TL;DR for humans with deadlines)
+## 🧠 Core Contributions (aka "Too Long, Just Tell Me Why It Matters")
 
-1. **Unified taxonomy** for all talking-head paradigms.
-2. **Cross-paradigm benchmarks** using public models.
-3. **Dataset decoding**: what's worth your GPU time.
-4. **Metric mayhem**: which one really captures realism?
-5. **Loss function symphony**: the good, the bad, the not-so-differentiable.
+- 📀 Unified taxonomy for THG — no more buzzword soup  
+- 🔬 Benchmarked open-source models — because someone had to do the hard part  
+- 📦 Dataset comparison — what’s hot, what’s not  
+- 📏 Metrics mayhem — why SSIM isn’t always your friend  
+- 🎼 Loss functions and why they love making your training unstable
 
 ---
 
-## 🔖 Citation
+## 🔖 Citation (For When It’s Published. Soon.)
 
 ```bibtex
 @misc{rakesh2025talkingheadreview,
   title={Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions},
   author={Vineet Kumar Rakesh and Soumya Mazumdar and Research Pratim Maity and Sarbajit Pal and Amitabha Das and Tapas Samanta},
   year={2025},
-  note={Bolbona}
+  note={Preprint – Will not be published. Child papers incoming.}
 }
+```
+
+---
+
+## 📣 Final Words
+
+If you're into:
+- Machines that talk with your face
+- Academic deep dives that make your brain sweat
+- And humor that makes research tolerable
+
+You're in the right repo.
+
+**Stars appreciated. Forks encouraged. Pull requests cautiously welcomed.**  
+🥸 _Your talking head just said thanks._
