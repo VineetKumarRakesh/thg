@@ -12,7 +12,7 @@ Welcome to the wildest ride in neural rendering: **Talking Head Generation (THG)
 
 ⚠️ **DISCLAIMER:**  
 The **preprint paper titled**  
-📄 **“Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions”** is **NOT going to be published**. It’s the *mother of all drafts* — split into multiple, more detailed children destined for **Scopus-indexed journals and conferences**. [DOI: 10.13140/RG.2.2.34215.05286](http://dx.doi.org/10.13140/RG.2.2.34215.05286)
+📄 **“Advancing Talking Head Generation: A Comprehensive Survey of Multi-Modal Methodologies, Datasets, Evaluation Metrics, and Loss Functions”** is **NOT going to be published**. It’s the *mother of all drafts* — split into multiple, more detailed children destined for **Scopus-indexed journals and conferences**. [arXiv:2507.02900](https://doi.org/10.48550/arXiv.2507.02900)
 
 ---
 
