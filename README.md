@@ -20,8 +20,8 @@ The **preprint paper titled**
 
 These aren’t clones. They are deeper, sharper, peer-reviewed cousins of the main survey. Once they pass reviewer boss fights, we’ll drop the DOIs and links here:
 
-### 🔍 1. **Advancing Talking Head Generation: A Systematic Review of Methodologies and Evaluation Metrics**  
-🧪 *Journal Submission - The Visual Computer, Springer Nature*  
+### 🔍 1. **Advancements in talking head generation: a comprehensive review of techniques, metrics, and challenges**  
+🧪 *Journal Submission - The Visual Computer, Springer Nature* [DOI: 10.1007/s00371-025-04232-w]
 > Dive into the model jungle — from GANs to NeRFs and Transformers, all neatly dissected like a biology lab frog.
 
 ### 📃️ 2. **Comprehensive Dataset Analysis for Talking Head Generation**  
@@ -32,8 +32,8 @@ These aren’t clones. They are deeper, sharper, peer-reviewed cousins of the ma
 📗 *Journal Submission*  
 > If you've ever said "SSIM is enough," this chapter is about to throw shade and math at you.
 
-### 🧪 4. **Experimental Validation of Modern Talking Head Generation Architectures**  
-🛠️ *Conference Paper Submission*  
+### 🧪 4. **Empirical Evaluation of State-of-the-Art Talking Head Generation Models**  
+🛠️ *Conference Paper Submission* - 3rd International Conference on Recent Advances in Artificial Intelligence and Smart Applications
 > Benchmarks, metrics, results, regrets — actual experimental results with charts and enough tables to furnish an IKEA showroom.
 
 🔬 **Links will appear here** like magic scrolls, post-acceptance. Until then... stay tuned.
