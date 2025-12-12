@@ -21,7 +21,7 @@ The **preprint paper titled**
 These aren’t clones. They are deeper, sharper, peer-reviewed cousins of the main survey. Once they pass reviewer boss fights, we’ll drop the DOIs and links here:
 
 ### 🔍 1. **Advancements in talking head generation: a comprehensive review of techniques, metrics, and challenges**  
-🧪 *Journal Submission - The Visual Computer, Springer Nature* [DOI: 10.1007/s00371-025-04232-w]
+🧪 *Journal Submission - The Visual Computer, Springer Nature* [DOI: 10.1007/s00371-025-04232-w](https://doi.org/10.1007/s00371-025-04232-w)
 > Dive into the model jungle — from GANs to NeRFs and Transformers, all neatly dissected like a biology lab frog.
 
 ### 📃️ 2. **Comprehensive Dataset Analysis for Talking Head Generation**  
